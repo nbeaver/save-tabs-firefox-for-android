@@ -1,1 +1,1 @@
-- [ ] Find a public domain icon.
+- [x] Find a public domain icon.
