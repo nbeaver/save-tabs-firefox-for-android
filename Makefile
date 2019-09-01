@@ -4,7 +4,7 @@ ZIP :=save_tabs_android.zip
 
 all : $(ZIP)
 
-$(ZIP): background.js manifest.json icons/icon.svg
+$(ZIP): save_tabs.js manifest.json icons/icon.svg
 	zip --quiet $@ $^
 
 clean :
