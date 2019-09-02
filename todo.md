@@ -1,1 +1,2 @@
 - [x] Find a public domain icon.
+- [ ] Switch to HTML output (like exporting bookmarks as HTML)
