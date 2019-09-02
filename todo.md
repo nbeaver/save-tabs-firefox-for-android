@@ -1,2 +1,4 @@
 - [x] Find a public domain icon.
 - [ ] Switch to HTML output (like exporting bookmarks as HTML)
+- [ ] Figure out why most tabs have the URL `about:blank`
+  - [ ] https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
