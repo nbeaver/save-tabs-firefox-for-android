@@ -1,4 +1,9 @@
 - [x] Find a public domain icon.
 - [ ] Switch to HTML output (like exporting bookmarks as HTML)
-- [ ] Figure out why most tabs have the URL `about:blank`
-  - [ ] https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
+    - Use the [description list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+    - <https://support.mozilla.org/en-US/kb/import-bookmarks-html-file>
+    - [NETSCAPE-Bookmark-file-1](http://fileformats.archiveteam.org/wiki/Netscape_bookmarks)
+    - <https://gist.github.com/jgarber623/cdc8e2fa1cbcb6889872>
+- [x] Figure out why most tabs have the URL `about:blank`
+  - [x] https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
+- [ ] Exclude private tabs
