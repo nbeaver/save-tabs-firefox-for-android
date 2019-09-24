@@ -4,6 +4,7 @@
     - <https://support.mozilla.org/en-US/kb/import-bookmarks-html-file>
     - [NETSCAPE-Bookmark-file-1](http://fileformats.archiveteam.org/wiki/Netscape_bookmarks)
     - <https://gist.github.com/jgarber623/cdc8e2fa1cbcb6889872>
+    - Also include a naked link for easy Ctrl-F searching.
 - [x] Figure out why most tabs have the URL `about:blank`
   - [x] https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
 - [ ] Exclude private tabs
