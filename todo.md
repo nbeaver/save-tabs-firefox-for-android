@@ -8,3 +8,5 @@
 - [x] Figure out why most tabs have the URL `about:blank`
   - [x] https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
 - [ ] Exclude private tabs
+- [ ] Add a configuration option to save current window instead of all tabs.
+    - Is this useful on Android?
