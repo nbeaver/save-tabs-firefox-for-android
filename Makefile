@@ -7,5 +7,8 @@ all : $(ZIP)
 $(ZIP): save_tabs.js manifest.json icons/icon.svg
 	zip --quiet $@ $^
 
+readme.html : readme.rst
+	rst2html $< $@
+
 clean :
 	rm -f -- $(ZIP)
