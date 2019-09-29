@@ -1,0 +1,21 @@
+Name:
+Save tabs on Android (experimental)
+
+Summary:
+Save list of open tabs. Works on Firefox for Android. Experimental only, suffers from serious bugs.
+
+
+Description:
+This add-on saves the list of open tabs to a JSON file.
+
+The file includes the title and URL of each tab, as well as the date and time the file was saved.
+
+WARNING: as of Firefox for Android 68.1.1, this add-on will <em>not</em> save the correct title and URL for most open tabs, instead listing them with a blank title and "about:blank" as the URL.
+
+This is because Firefox for Android saves memory by unloading background tabs (this is called "zombification"). Unfortunately, this also has the side effect of removing the title and URL of the tabs from the Webextension tabs API.
+
+There is an option in "about:config" where the use can set "browser.tabs.disableBackgroundZombification" to true. Unfortunately, this only slightly reduces the problem; most tab URLs are still inaccessible, and the browser does not handle memory pressure as well.
+
+There is an open Bugzilla report concerning this behavior, but it is unlikely to be fixed soon.
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
