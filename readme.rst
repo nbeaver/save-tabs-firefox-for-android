@@ -8,7 +8,7 @@ Summary
 
 Save list of open tabs. Works on Firefox for Android.
 
-Experimental only, suffer from a serious bug.
+Experimental only, suffers from a serious bug.
 
 Description
 -----------
