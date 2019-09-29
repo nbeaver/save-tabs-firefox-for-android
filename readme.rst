@@ -3,6 +3,8 @@ Name
 
 Save tabs on Android (experimental)
 
+https://addons.mozilla.org/en-US/firefox/addon/save-tabs-on-android/
+
 Summary
 -------
 
