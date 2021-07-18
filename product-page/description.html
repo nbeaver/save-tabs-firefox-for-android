@@ -3,7 +3,7 @@ Save tabs on Android (experimental)
 
 
 Summary:
-Save list of open tabs. Works on Firefox for Android. Experimental only, suffer from a serious bug.
+Save list of open tabs. Works on Firefox for Android. Experimental only, suffers from multiple serious bugs.
 
 
 Description:
@@ -20,3 +20,7 @@ There is an option in "about:config" where the use can set "browser.tabs.disable
 There is an open Bugzilla report concerning this behavior, but it is unlikely to be fixed soon.
 
 https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
+
+WARNING: as of Firefox for Android 80-91 and later, this add-on will <em>not</em> download any tab information since browser.downloads.download WebExtensions API is no longer available in Firefox for Android.
+
+https://github.com/mozilla-mobile/fenix/issues/16585
