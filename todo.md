@@ -1,3 +1,4 @@
+- [ ] Fix download issue.
 - [x] Find a public domain icon.
 - [ ] Switch to HTML output (like exporting bookmarks as HTML)
     - Use the [description list element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
