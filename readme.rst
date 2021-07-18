@@ -62,6 +62,12 @@ https://searchfox.org/mozilla-central/rev/23f836a71cfe961373c8bd0d0219ec60a64b3c
 There is an open Bugzilla report concerning this behavior,
 but it is unlikely to be fixed soon.
 
-
-
 https://bugzilla.mozilla.org/show_bug.cgi?id=1578292
+
+Addendum:
+This addon does not work at all in Firefox for Android versions 80-91 and later,
+since the ``browser.downloads.download`` WebExtension API no longer works.
+
+https://github.com/mozilla-mobile/fenix/issues/16585
+
+https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/download
