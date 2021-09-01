@@ -36,8 +36,8 @@ function saveTabs(tabs) {
     return filename
   }
   var payload = JSON.stringify(allInfo, null, 2);
-  var paylodBlob = new Blob([payload], {type: 'text/plain'});
-  var payloadURL = URL.createObjectURL(paylodBlob);
+  var payloadBlob = new Blob([payload], {type: 'text/plain'});
+  var payloadURL = URL.createObjectURL(payloadBlob);
   var payload_filename = getFilename(now);
   var downloading = browser.downloads.download({
     url: payloadURL,
