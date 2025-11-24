@@ -71,3 +71,9 @@ since the ``browser.downloads.download`` WebExtension API no longer works.
 https://github.com/mozilla-mobile/fenix/issues/16585
 
 https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/downloads/download
+
+Addendum 2025-11-10:
+This addons also no longer works
+because the ``tabs`` API provides only a limited subset of the open tabs:
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=1999408
